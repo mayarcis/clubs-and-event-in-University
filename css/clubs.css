@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fffdf5;
+    color: #26352b;
+}
+
+
+.main-navbar {
+    background-color:rgb(71, 0, 0);
+    padding: 12px;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Clubs Section */
+.clubs-section {
+    background-color: #fffdf5;
+}
+
+.clubs-title {
+    color: #470000;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.clubs-description {
+    color: #555;
+}
+
+/* Club Cards */
+.club-card {
+    background-color: white;
+    border: 1px solid #e5d5c5;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.club-card .card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.club-card .card-body {
+    min-height: 190px;
+}
+
+.club-card .card-title {
+    color: #470000;
+    font-weight: bold;
+}
+
+.club-card .card-text {
+    color: #555;
+}
+
+/* Club Buttons */
+.club-btn {
+    background-color: #470000;
+    color: white;
+    margin: 3px;
+    border: 1px solid #470000;
+    transition: 0.3s;
+}
+
+.club-btn:hover {
+    background-color: #d9ad45;
+    color: #470000;
+    border-color: #d9ad45;
+}
+
+.club-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(71, 0, 0, 0.25);
+}
+
+/* Club Image and Information */
+.club-image {
+    position: relative;
+}
+
+.club-image .card-img-top {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.club-info {
+    background-color: rgba(71, 0, 0, 0.95);
+    color: #fffdf5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    opacity: 0;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.club-info h5 {
+    color: #d9ad45;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.club-info p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.club-image:hover .club-info {
+    opacity: 1;
+}
+
+/* Footer */
+.main-footer {
+    background-color: #470000;
+    color: #fffdf5;
+    padding: 20px 0 10px;
+    border-top: 3px solid #d9ad45;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-card {
+    width: 33.33%;
+}
+
+.footer-card h5 {
+    color: #d9ad45;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-card p {
+    color: #fffdf5;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* Footer Links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 4px;
+}
+
+.footer-links a {
+    color: #fffdf5;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #d9ad45;
+}
+
+/* Social Media Icons */
+.social-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.social-links a {
+    color: #fffdf5;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.social-links .facebook:hover {
+    color: #1877F2;
+}
+
+.social-links .instagram:hover {
+    color: #E4405F;
+}
+
+.social-links .linkedin:hover {
+    color: #0A66C2;
+}
+
+/* Footer Line */
+.main-footer hr {
+    border-color: #d9ad45;
+    margin: 12px 0;
+}
+
+/* Copyright */
+.copyright {
+    color: #d9ad45;
+    font-size: 12px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-card {
+        width: 100%;
+    }
+}
