@@ -1,24 +1,50 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #fffdf5;
-    color: #26352b;
+.main-navbar {
+    background: rgba(28, 21, 16, 0.98);
+    padding: 10px 0;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.14);
 }
 
-
-.main-navbar {
-    background-color:rgb(71, 0, 0);
-    padding: 12px;
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #fff;
+    padding: 4px 0;
+    font-size: 1.05rem;
 }
 
 .logo {
-    width: 45px;
-    height: 45px;
+    width: 43px;
+    height: 43px;
     object-fit: cover;
     border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.8);
 }
 
-/* Clubs Section */
+.main-navbar .navbar-nav {
+    align-items: center;
+    gap: 8px;
+}
+
+.main-navbar .nav-link {
+    color: #f8eee7;
+    padding: 9px 15px;
+    border-radius: 22px;
+    font-size: 0.94rem;
+}
+
+.main-navbar .nav-link:hover,
+.main-navbar .nav-link.active {
+    background: #af6f3c;
+    color: #fff;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.45);
+}
+
+
+
 .clubs-section {
     background-color: #fffdf5;
 }
@@ -123,18 +149,17 @@ body {
     opacity: 1;
 }
 
-/* Footer */
 .main-footer {
-    background-color: #470000;
-    color: #fffdf5;
-    padding: 20px 0 10px;
-    border-top: 3px solid #d9ad45;
+    background: rgba(28, 21, 16, 0.98);
+    color: #f9f1eb;
+    padding: 32px 0 14px;
+    border-top: 3px solid #cbbeb6;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 28px;
 }
 
 .footer-card {
@@ -142,74 +167,59 @@ body {
 }
 
 .footer-card h5 {
-    color: #d9ad45;
-    font-size: 17px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 13px;
 }
 
 .footer-card p {
-    color: #fffdf5;
-    font-size: 13px;
-    line-height: 1.5;
+    color: #e6d9cf;
+    margin-bottom: 8px;
 }
 
-/* Footer Links */
 .footer-links {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
-.footer-links li {
-    margin-bottom: 4px;
-}
 
 .footer-links a {
-    color: #fffdf5;
-    font-size: 13px;
+    color: #e6d9cf;
+    font-size: 0.88rem;
     text-decoration: none;
-    transition: 0.3s;
 }
 
 .footer-links a:hover {
-    color: #d9ad45;
+    color: #e2a878;
 }
 
-/* Social Media Icons */
 .social-links {
     display: flex;
-    gap: 12px;
-    margin-top: 8px;
+    gap: 14px;
+    margin-top: 12px;
 }
 
 .social-links a {
-    color: #fffdf5;
-    font-size: 20px;
-    transition: 0.3s;
+    color: #f9f1eb;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.2s ease;
 }
 
-.social-links .facebook:hover {
-    color: #1877F2;
+.social-links a:hover {
+    color: #e2a878;
 }
 
-.social-links .instagram:hover {
-    color: #E4405F;
-}
-
-.social-links .linkedin:hover {
-    color: #0A66C2;
-}
-
-/* Footer Line */
 .main-footer hr {
-    border-color: #d9ad45;
-    margin: 12px 0;
+    border-color: rgba(255, 255, 255, 0.25);
+    margin: 20px 0 12px;
 }
 
-/* Copyright */
 .copyright {
-    color: #d9ad45;
-    font-size: 12px;
+    color: #d8c5b7;
+    font-size: 0.8rem;
 }
 
 /* Mobile */
@@ -221,5 +231,11 @@ body {
 
     .footer-card {
         width: 100%;
+    }
+}
+/* Tablet */
+@media (max-width: 992px) {
+    .footer {
+        flex-wrap: wrap;
     }
 }
