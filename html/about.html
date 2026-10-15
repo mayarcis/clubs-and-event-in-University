@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark main-navbar">
+            <div class="container">
+
+                <a class="navbar-brand" href="home.html">
+                    <img src="../image/university logo.jpg" alt="University Logo" class="logo">
+                    <strong>University Clubs</strong>
+                </a>
+
+                <button class="navbar-toggler ms-auto" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="event.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="clubs.html">Clubs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="join_us.html">Join</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- University Pictures and Video -->
+         <section class="university-media py-5">
+            <div class="container">
+
+                <div class="text-center mb-4">
+                    <h2><strong>Discover Our University</strong></h2>
+                    <p>Explore the campus and discover university life.</p>
+                </div>
+
+                <div class="row g-4 align-items-center">
+
+                    <!-- University Images -->
+                    <div class="col-12 col-lg-6">
+                        <div id="universityCarousel"
+                            class="carousel slide university-carousel"
+                            data-bs-ride="carousel">
+
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+                                    <img src="../image/university1.jpg"
+                                        class="d-block w-100"
+                                        alt="University Campus">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="../image/university2.jpg"
+                                        class="d-block w-100"
+                                        alt="University Activities">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="../image/university3.jpg"
+                                        class="d-block w-100"
+                                        alt="University Students">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="../image/university4.jpg"
+                                        class="d-block w-100"
+                                        alt="University Buildings">
+                                </div>
+
+                            </div>
+
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#universityCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"
+                                    aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#universityCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"
+                                    aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+
+                        </div>
+                    </div>
+
+                    <!-- University Video -->
+                    <div class="col-12 col-lg-6">
+                        <div class="university-video">
+                            <video controls>
+                                <source src="../image/videoplayback.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    
+<footer class="main-footer">
+        <div class="container">
+
+            <div class="footer">
+
+                <div class="footer-card">
+                    <h5>
+                        <i class="bi bi-mortarboard-fill"></i>
+                        University Clubs
+                    </h5>
+
+                    <p>
+                        If you are not doing what you love,
+                        you are wasting your <strong>time</strong>.
+                    </p>
+
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-card">
+                    <h5>
+                        <i class="bi bi-link-45deg"></i>
+                        Quick Links
+                    </h5>
+
+                    <ul class="footer-links">
+                        <li><a href="home.html">Home</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-card">
+                    <h5>
+                        <i class="bi bi-envelope-fill"></i>
+                        Contact Us
+                    </h5>
+
+                    <p>
+                        <i class="bi bi-envelope"></i>
+                        Technical_university@gmail.com
+                    </p>
+
+                    <p>
+                        <i class="bi bi-geo-alt-fill"></i>
+                        University Campus
+                    </p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center copyright">
+                <p class="mb-0">
+                    &copy; 2026  All Rights Reserved.
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

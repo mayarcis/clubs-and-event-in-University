@@ -1,33 +1,28 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University Clubs | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/home.css">
 </head>
 
 <body>
 
-    <!-- Header and Navigation -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark main-navbar">
             <div class="container">
 
                 <a class="navbar-brand" href="home.html">
                     <img src="../image/university logo.jpg" alt="University Logo" class="logo">
-                    <strong>University Clubs</strong>
+                    <strong>Technical University</strong>
                 </a>
 
-                <button class="navbar-toggler ms-auto" type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -44,7 +39,7 @@
                             <a class="nav-link" href="clubs.html">Clubs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="join_us.html">Join</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
@@ -56,240 +51,68 @@
         </nav>
     </header>
 
+
     <main>
+        <div class="hero d-flex align-items-center">
+            <div class="container  d-flex align-items-center justify-content-between gap-1">
 
-        <!-- Hero Section -->
-        <section class="back-ground">
-            <div class="words">
-                <h1>
-                    Discover University Clubs
-                    <br>
-                    Explore Exciting Events
-                </h1>
+                <div class="words">
+                    <h3>Discover Your University Club<br>
+                        and Begin Your Student Journey
+                    </h3>
 
-                <p>Make the most of your university experience.</p>
+                    <p>
+                        There are over nine student clubs covering technology<br>
+                        sports, arts, volunteering, and literature. Find the<br>
+                        activity that suits you, explore upcoming events, and<br>
+                        join in just a few simple steps.
+                    </p>
 
-                <a href="clubs.html" class="btn">
-                    <strong>Discover Clubs</strong>
-                </a>
 
-                <a href="contact.html" class="btn btn-outline">
-                    <strong>Contact Us</strong>
-                </a>
-            </div>
-        </section>
-
-        <!-- University Features -->
-        <section class="university-special py-4">
-            <div class="container">
-                <div class="row g-4">
-
-                    <div class="col-6 col-lg-3">
-                        <div class="special-card text-center">
-                            <i class="bi bi-lightbulb-fill"></i>
-                            <h5>Learning</h5>
-                            <p>Discover new ideas and useful skills.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-lg-3">
-                        <div class="special-card text-center">
-                            <i class="bi bi-calendar-event-fill"></i>
-                            <h5>Exciting Events</h5>
-                            <p>Take part in activities throughout the year.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-lg-3">
-                        <div class="special-card text-center">
-                            <i class="bi bi-palette-fill"></i>
-                            <h5>Creativity</h5>
-                            <p>Share your ideas and explore your interests.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-lg-3">
-                        <div class="special-card text-center">
-                            <i class="bi bi-people-fill"></i>
-                            <h5>Teamwork</h5>
-                            <p>Meet people and build new connections.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- University Pictures and Video -->
-        <section class="university-media py-5">
-            <div class="container">
-
-                <div class="text-center mb-4">
-                    <h2><strong>Discover Our University</strong></h2>
-                    <p>Explore the campus and discover university life.</p>
-                </div>
-
-                <div class="row g-4 align-items-center">
-
-                    <!-- University Images -->
-                    <div class="col-12 col-lg-6">
-                        <div id="universityCarousel"
-                            class="carousel slide university-carousel"
-                            data-bs-ride="carousel">
-
-                            <div class="carousel-inner">
-
-                                <div class="carousel-item active">
-                                    <img src="../image/university1.jpg"
-                                        class="d-block w-100"
-                                        alt="University Campus">
-                                </div>
-
-                                <div class="carousel-item">
-                                    <img src="../image/university2.jpg"
-                                        class="d-block w-100"
-                                        alt="University Activities">
-                                </div>
-
-                                <div class="carousel-item">
-                                    <img src="../image/university3.jpg"
-                                        class="d-block w-100"
-                                        alt="University Students">
-                                </div>
-
-                                <div class="carousel-item">
-                                    <img src="../image/university4.jpg"
-                                        class="d-block w-100"
-                                        alt="University Buildings">
-                                </div>
-
-                            </div>
-
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#universityCarousel"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"
-                                    aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#universityCarousel"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon"
-                                    aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-
-                        </div>
-                    </div>
-
-                    <!-- University Video -->
-                    <div class="col-12 col-lg-6">
-                        <div class="university-video">
-                            <video controls>
-                                <source src="../image/videoplayback.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- University Achievements -->
-        <section class="achievements py-5">
-            <div class="container">
-
-                <div class="text-center mb-5">
-                    <h2><strong>University Achievements</strong></h2>
-                    <p>Opportunities that bring students together.</p>
-                </div>
-
-                <div class="row g-4">
-
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="achievement-cards text-center">
-                            <div class="achievement-card">
-                                <i class="bi bi-people-fill"></i>
-                            </div>
-                            <h3>50+</h3>
-                            <h5>Student Clubs</h5>
-                            <p>Clubs for students with different interests.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="achievement-cards text-center">
-                            <div class="achievement-card">
-                                <i class="bi bi-calendar-event-fill"></i>
-                            </div>
-                            <h3>100+</h3>
-                            <h5>Events</h5>
-                            <p>Educational and entertaining events.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="achievement-cards text-center">
-                            <div class="achievement-card">
-                                <i class="bi bi-mortarboard-fill"></i>
-                            </div>
-                            <h3>20K+</h3>
-                            <h5>Students</h5>
-                            <p>Students learning and connecting together.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="achievement-cards text-center">
-                            <div class="achievement-card">
-                                <i class="bi bi-trophy-fill"></i>
-                            </div>
-                            <h3>20+</h3>
-                            <h5>Awards</h5>
-                            <p>Awards in different student competitions.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- About University Life -->
-        <section class="university-about py-5">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-
-                    <div class="col-12 col-lg-6">
-                        <h2><strong>A Place to Learn and Grow</strong></h2>
-
-                        <p>
-                            University life is about more than studying.
-                            Join clubs, attend events, meet new people,
-                            and discover the activities that make your
-                            university experience special.
-                        </p>
-
-                        <a href="about.html" class="btn learn-more-btn">
-                            <strong>Learn More</strong>
+                    <div class="btn d-flex p-0">
+                        <a href="../html/clubs.html" class="first">
+                            Explore All Clubs
                         </a>
-                    </div>
 
-                    <div class="col-12 col-lg-6">
-                        <img src="../image/university1.jpg"
-                            class="about-image"
-                            alt="University Campus">
-                    </div>
+                        <a href="../html/join_us.html" class="second">
+                            Join Us
+                        </a>
 
+                    </div>
+                    <div class="stats d-flex ">
+                        <div class="stat">
+                            <h4>9+</h4>
+                            <p>Student Clubs</p>
+                        </div>
+
+                        <div class="stat">
+                            <h4>700+</h4>
+                            <p>Members</p>
+                        </div>
+
+                        <div class="stat">
+                            <h4>50+</h4>
+                            <p>Annual Events</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
 
+                <div class="image d-flex justify-content-center align-items-center gap-1">
+                    <div class="image-column d-flex flex-column  ">
+                        <img src="../image/university1.jpg" class="image1" alt="University">
+
+                        <img src="../image/university4.jpg" class="img3" alt="University">
+                    </div>
+
+                    <div class="image-column second-column">
+                        <img src="../image/university2.jpg" class="img2" alt="University">
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </main>
 
-    <!-- Footer -->
     <footer class="main-footer">
         <div class="container">
 
@@ -297,7 +120,6 @@
 
                 <div class="footer-card">
                     <h5>
-                        <i class="bi bi-mortarboard-fill"></i>
                         University Clubs
                     </h5>
 
@@ -306,22 +128,11 @@
                         you are wasting your <strong>time</strong>.
                     </p>
 
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook">
-                            <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="#" aria-label="Instagram">
-                            <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="#" aria-label="LinkedIn">
-                            <i class="bi bi-linkedin"></i>
-                        </a>
-                    </div>
+
                 </div>
 
                 <div class="footer-card">
                     <h5>
-                        <i class="bi bi-link-45deg"></i>
                         Quick Links
                     </h5>
 
@@ -332,19 +143,21 @@
 
                 <div class="footer-card">
                     <h5>
-                        <i class="bi bi-envelope-fill"></i>
                         Contact Us
                     </h5>
 
                     <p>
-                        <i class="bi bi-envelope"></i>
                         Technical_university@gmail.com
                     </p>
 
                     <p>
-                        <i class="bi bi-geo-alt-fill"></i>
                         University Campus
                     </p>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
                 </div>
 
             </div>
@@ -353,7 +166,7 @@
 
             <div class="text-center copyright">
                 <p class="mb-0">
-                    &copy; 2026  All Rights Reserved.
+                    &copy; 2026 All Rights Reserved.
                 </p>
             </div>
 
@@ -363,4 +176,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
